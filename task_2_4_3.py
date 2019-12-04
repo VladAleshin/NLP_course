@@ -7,3 +7,5 @@ def tokenize(txt):
 for line in sys.stdin:
     print(' '.join(tokenize(line.strip().lower())))
 
+
+    
