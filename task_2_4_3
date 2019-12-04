@@ -1,7 +1,6 @@
 import re
 import sys
 
-
 # модифицируйте это регулярное выражение
 TOKENIZE_RE = re.compile(r'[а-яё]+|[+-]?\d*[,.]?\d+|\S{1}', re.I)
 
